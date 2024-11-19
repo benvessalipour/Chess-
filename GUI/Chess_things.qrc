@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/board">
+        <file>Pics/OOAD630.jpg</file>
+        <file>Pics/penis.png</file>
+        <file>Pics/Black and white board.png</file>
+        <file>Pics/Punk Board.png</file>
+        <file>Pics/Nature board.png</file>
+    </qresource>
+    <qresource prefix="/figures">
+        <file>Pics/black-bishop.png</file>
+        <file>Pics/black-king.png</file>
+        <file>Pics/black-knight.png</file>
+        <file>Pics/black-pawn.png</file>
+        <file>Pics/black-queen.png</file>
+        <file>Pics/black-rook.png</file>
+        <file>Pics/white-bishop.png</file>
+        <file>Pics/white-king.png</file>
+        <file>Pics/white-knight.png</file>
+        <file>Pics/white-pawn.png</file>
+        <file>Pics/white-queen.png</file>
+        <file>Pics/white-rook.png</file>
+    </qresource>
+    <qresource prefix="/Backgrounds"/>
+    <qresource prefix="/Background">
+        <file>Pics/360_F_375500531_WjntKoDjk2R2H7g2uyzoadVs2FjxsDjE.jpg</file>
+        <file>Pics/1000_F_561376397_Airq5FCNa4Ec26GoRXWFxp7VykpMHWPf.jpg</file>
+        <file>Pics/dqdqdqd.jpg</file>
+        <file>Pics/ffwf.jpg</file>
+    </qresource>
+</RCC>

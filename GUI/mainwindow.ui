@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>748</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Baord mode</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="OnOffLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TheBoardLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>611</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Chess_pics.qrc">:/boards/GUI/Pics/OOAD630.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>190</y>
+      <width>491</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="Board">
+     <item row="2" column="3">
+      <widget class="QPushButton" name="_3_4">
+       <property name="text">
+        <string>3x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="_1_3">
+       <property name="text">
+        <string>1x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="_3_6">
+       <property name="text">
+        <string>3x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="_8_3">
+       <property name="text">
+        <string>8x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="_6_3">
+       <property name="text">
+        <string>6x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QPushButton" name="_5_8">
+       <property name="text">
+        <string>5x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="_8_1">
+       <property name="text">
+        <string>8x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QPushButton" name="_6_8">
+       <property name="text">
+        <string>6x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QPushButton" name="_7_6">
+       <property name="text">
+        <string>7x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="_1_7">
+       <property name="text">
+        <string>1x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="_2_5">
+       <property name="text">
+        <string>2x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="_4_4">
+       <property name="text">
+        <string>4x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QPushButton" name="_7_8">
+       <property name="text">
+        <string>7x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="_6_2">
+       <property name="text">
+        <string>6x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QPushButton" name="_8_5">
+       <property name="text">
+        <string>8x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="_2_4">
+       <property name="text">
+        <string>2x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="_7_5">
+       <property name="text">
+        <string>7x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="_3_7">
+       <property name="text">
+        <string>3x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QPushButton" name="_8_4">
+       <property name="text">
+        <string>8x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="_1_2">
+       <property name="text">
+        <string>1x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="_2_6">
+       <property name="text">
+        <string>2x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QPushButton" name="_4_7">
+       <property name="text">
+        <string>4x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="_3_3">
+       <property name="text">
+        <string>3x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="_7_1">
+       <property name="text">
+        <string>7x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="_8_2">
+       <property name="text">
+        <string>8x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="_5_4">
+       <property name="text">
+        <string>5x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="_7_4">
+       <property name="text">
+        <string>7x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="_5_2">
+       <property name="text">
+        <string>5x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="_5_5">
+       <property name="text">
+        <string>5x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="_2_8">
+       <property name="text">
+        <string>2x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QPushButton" name="_4_8">
+       <property name="text">
+        <string>4x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QPushButton" name="_5_6">
+       <property name="text">
+        <string>5x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QPushButton" name="_5_7">
+       <property name="text">
+        <string>5x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="_4_3">
+       <property name="text">
+        <string>4x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="_3_1">
+       <property name="text">
+        <string>3x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="_2_2">
+       <property name="text">
+        <string>2x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="_6_5">
+       <property name="text">
+        <string>6x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="_5_1">
+       <property name="text">
+        <string>5x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QPushButton" name="_4_6">
+       <property name="text">
+        <string>4x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="7">
+      <widget class="QPushButton" name="_8_8">
+       <property name="text">
+        <string>8x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="_6_1">
+       <property name="text">
+        <string>6x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="_2_1">
+       <property name="text">
+        <string>2x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="_3_5">
+       <property name="text">
+        <string>3x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="_5_3">
+       <property name="text">
+        <string>5x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="6">
+      <widget class="QPushButton" name="_6_7">
+       <property name="text">
+        <string>6x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="_3_2">
+       <property name="text">
+        <string>3x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QPushButton" name="_8_7">
+       <property name="text">
+        <string>8x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="_1_5">
+       <property name="text">
+        <string>1x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QPushButton" name="_8_6">
+       <property name="text">
+        <string>8x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="_4_2">
+       <property name="text">
+        <string>4x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="_3_8">
+       <property name="text">
+        <string>3x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="_1_6">
+       <property name="text">
+        <string>1x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="_2_3">
+       <property name="text">
+        <string>2x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="_7_2">
+       <property name="text">
+        <string>7x2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="_7_3">
+       <property name="text">
+        <string>7x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="_1_8">
+       <property name="text">
+        <string>1x8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="_1_4">
+       <property name="text">
+        <string>1x4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5">
+      <widget class="QPushButton" name="_6_6">
+       <property name="text">
+        <string>6x6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="_4_5">
+       <property name="text">
+        <string>4x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="6">
+      <widget class="QPushButton" name="_7_7">
+       <property name="text">
+        <string>7x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="_4_1">
+       <property name="text">
+        <string>4x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="_1_1">
+       <property name="text">
+        <string>1x1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QPushButton" name="_2_7">
+       <property name="text">
+        <string>2x7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="_6_4">
+       <property name="text">
+        <string>6x4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="PPLAbel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>611</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/board/Pics/penis.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>50</y>
+      <width>82</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Wood</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mosaik</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cyberpunk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nature</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="TheBackgroundLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-11</y>
+      <width>1131</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Background</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>30</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Boards</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>30</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Backgrounds</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>50</y>
+      <width>82</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Wood</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BnW</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CyberPunk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nature</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>50</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>30</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Music</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>50</y>
+      <width>160</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>30</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volume</string>
+    </property>
+   </widget>
+   <zorder>TheBackgroundLabel</zorder>
+   <zorder>PPLAbel</zorder>
+   <zorder>TheBoardLabel</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>OnOffLabel</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>comboBox_2</zorder>
+   <zorder>comboBox_3</zorder>
+   <zorder>label_3</zorder>
+   <zorder>horizontalSlider</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1125</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCHESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS">
+    <property name="title">
+     <string>CHESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuby_ussss">
+    <property name="title">
+     <string>by ussss</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuI_love_how_u_can_add_things_here">
+    <property name="title">
+     <string>I love how u can add things here</string>
+    </property>
+   </widget>
+   <addaction name="menuCHESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"/>
+   <addaction name="menuby_ussss"/>
+   <addaction name="menuI_love_how_u_can_add_things_here"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../Chess_pics.qrc"/>
+ </resources>
+ <connections/>
+</ui>

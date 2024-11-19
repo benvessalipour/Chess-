@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/figures"/>
+    <qresource prefix="/boards"/>
+    <qresource prefix="/backgrounds"/>
+    <qresource prefix="/">
+        <file>../GUI/Pics/Black and white board.png</file>
+        <file>../GUI/Pics/Nature board.png</file>
+        <file>../GUI/Pics/OOAD630.jpg</file>
+        <file>../GUI/Pics/Punk Board.png</file>
+    </qresource>
+</RCC>
