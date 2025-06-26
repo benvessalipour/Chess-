@@ -13,7 +13,7 @@
 | 🌐 Netzwerk    | TCP-Socket-Kommunikation (Client/Server), Spectator-Modus |
 | 🧠 Architektur | Saubere Trennung: GUI / Logik / Netzwerk |
 | 📦 Ressourcen  | `.qrc`-Einbindung aller Bilder & Sounds |
-| 🛠 Plattformen | Windows, macOS, Linux (getestet) |
+| 🛠 Plattformen | Linux, macOS, Linux (getestet) |
 
 ---
 
